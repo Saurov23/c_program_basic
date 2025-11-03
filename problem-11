@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    float r1, i1, r2, i2, r, i;
+
+    printf("Enter real and imaginary part of first complex number: ");
+    scanf("%f %f", &r1, &i1);
+
+    printf("Enter real and imaginary part of second complex number: ");
+    scanf("%f %f", &r2, &i2);
+
+    r = r1 + r2;
+    i = i1 + i2;
+
+    printf("Sum = %.1f + %.1fi\n", r, i);
+
+    return 0;
+}
